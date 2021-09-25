@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MAD_Project</string>
+    <string name="userName">Chammak Challo</string>
+    <string name="Menu_button01">Add Items</string>
+    <string name="Menu_button02">Search and review items</string>
+    <string name="Menu_button03">Retrieve all your reviews</string>
+    <string name="homeButtonText">Home</string>
+    <string name="suggestionsButtonText">Suggestions</string>
+    <string name="youButtonsText">You</string>
+    <string name="List_Input01">Search</string>
+    <string name="List_Name01">HTC One Wear</string>
+    <string name="List_Name02">PS5</string>
+    <string name="List_Cat01">Electronics</string>
+    <string name="List_NOR01">156</string>
+    <string name="List_AddReview">Add your review</string>
+    <string name="List_NOR02">2567</string>
+    <string name="List_Cat02">Shoes</string>
+    <string name="List_NOR03">354</string>
+    <string name="List_Name03">NIKE Air Force 01</string>
+    <string name="List_Hint01">Write a detailed review</string>
+    <string name="List_Hint02">Describe in one word</string>
+    <string name="Item_SubmitButton">SUBMIT</string>
+    <string name="RatingNumber5">5</string>
+    <string name="itemName">Item Name</string>
+    <string name="category">Category:</string>
+    <string name="reviews">No. of Reviews:</string>
+    <string name="reviewed">Reviewed?:</string>
+    <string name="allItemReview">All Reviews</string>
+    <string name="userNameReview">User Name</string>
+    <string name="oneWordReview">In one word:</string>
+    <string name="ratingReview">Rating:</string>
+    <string name="detailedReview">In detail:</string>
+    <string name="yourReviewRating">Rating:</string>
+    <string name="yourOneWord">One Word Review:</string>
+    <string name="yourDetailedReview">Detailed Review:</string>
+</resources>
