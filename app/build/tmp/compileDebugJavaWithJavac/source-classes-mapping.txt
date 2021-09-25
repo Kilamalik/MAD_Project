@@ -1,0 +1,53 @@
+com/example/mad_project/YourReviewsAdapter.java
+ com.example.mad_project.YourReviewsAdapter
+ com.example.mad_project.YourReviewsAdapter$1
+ com.example.mad_project.YourReviewsAdapter$1$1
+ com.example.mad_project.YourReviewsAdapter$1$1$1
+ com.example.mad_project.YourReviewsAdapter$1$2
+ com.example.mad_project.YourReviewsAdapter$1$2$1
+ com.example.mad_project.YourReviewsAdapter$1$2$2
+ com.example.mad_project.YourReviewsAdapter$YourReviewsViewHolder
+com/example/mad_project/MyAdapter.java
+ com.example.mad_project.MyAdapter
+ com.example.mad_project.MyAdapter$1
+ com.example.mad_project.MyAdapter$MyViewHolder
+com/example/mad_project/databinding/UpdadeLayoutBinding.java
+ com.example.mad_project.databinding.UpdadeLayoutBinding
+com/example/mad_project/databinding/AllReviewsLayoutBinding.java
+ com.example.mad_project.databinding.AllReviewsLayoutBinding
+com/example/mad_project/ItemClass.java
+ com.example.mad_project.ItemClass
+com/example/mad_project/databinding/ItemBinding.java
+ com.example.mad_project.databinding.ItemBinding
+com/example/mad_project/databinding/ActivityMainBinding.java
+ com.example.mad_project.databinding.ActivityMainBinding
+com/example/mad_project/BuildConfig.java
+ com.example.mad_project.BuildConfig
+com/example/mad_project/AllReviewsAdapter.java
+ com.example.mad_project.AllReviewsAdapter
+ com.example.mad_project.AllReviewsAdapter$AllReviewsViewHolder
+com/example/mad_project/ReviewClass.java
+ com.example.mad_project.ReviewClass
+com/example/mad_project/databinding/YourReviewsLayoutBinding.java
+ com.example.mad_project.databinding.YourReviewsLayoutBinding
+com/example/mad_project/databinding/ActivityRetrieveAllReviewsBinding.java
+ com.example.mad_project.databinding.ActivityRetrieveAllReviewsBinding
+com/example/mad_project/databinding/ActivityReviewItemsListBinding.java
+ com.example.mad_project.databinding.ActivityReviewItemsListBinding
+com/example/mad_project/ReviewItem.java
+ com.example.mad_project.ReviewItem
+com/example/mad_project/RetrieveAllReviews.java
+ com.example.mad_project.RetrieveAllReviews
+ com.example.mad_project.RetrieveAllReviews$1
+com/example/mad_project/databinding/ActivityReviewItemBinding.java
+ com.example.mad_project.databinding.ActivityReviewItemBinding
+com/example/mad_project/databinding/ActivityRetrieveYourReviewsBinding.java
+ com.example.mad_project.databinding.ActivityRetrieveYourReviewsBinding
+com/example/mad_project/ReviewItemsList.java
+ com.example.mad_project.ReviewItemsList
+ com.example.mad_project.ReviewItemsList$1
+com/example/mad_project/RetrieveYourReviews.java
+ com.example.mad_project.RetrieveYourReviews
+ com.example.mad_project.RetrieveYourReviews$1
+com/example/mad_project/MainActivity.java
+ com.example.mad_project.MainActivity

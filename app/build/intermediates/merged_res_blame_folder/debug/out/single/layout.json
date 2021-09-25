@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\your_reviews_layout.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\your_reviews_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_retrieve_your_reviews.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\activity_retrieve_your_reviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_review_item.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\activity_review_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_review_items_list.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\activity_review_items_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\updade_layout.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\updade_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\all_reviews_layout.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\all_reviews_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_retrieve_all_reviews.xml",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\MAD_Project3\\app\\src\\main\\res\\layout\\activity_retrieve_all_reviews.xml"
+    }
+]
