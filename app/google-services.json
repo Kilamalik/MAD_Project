@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145342537533",
+    "firebase_url": "https://application-afe46-default-rtdb.firebaseio.com",
+    "project_id": "application-afe46",
+    "storage_bucket": "application-afe46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145342537533:android:122d0dac9151bfe3606f54",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145342537533-2g4q4e4boa8n5lqsg2eu02cdqn2krr9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyVYdPxbGs_i5bi3OUfCe_doqla3s6qZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145342537533-2g4q4e4boa8n5lqsg2eu02cdqn2krr9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
