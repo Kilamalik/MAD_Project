@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+
+    <Button
+        android:id="@+id/add_reviwes"
+        android:layout_width="339dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="132dp"
+        android:text="ADD REVIEWS"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#290C2E"
+        app:layout_constraintBottom_toTopOf="@+id/favorites"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/add_favorites"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:text="ADD FAVORITES"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#290C2E"
+        app:layout_constraintBottom_toTopOf="@+id/items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_items"
+        android:layout_width="332dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="104dp"
+        android:text="ADD ITEMS"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#290C2E"
+        app:layout_constraintBottom_toTopOf="@+id/suggestionicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/no_of_reviews"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/reviews"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/no_of_favorites"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/favorites"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/no_of_items"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/items"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="44dp"
+        android:text="REVIEWS"
+        android:textColor="#151414"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/add_reviwes"
+        app:layout_constraintEnd_toStartOf="@+id/no_of_reviews"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+        android:id="@+id/favorites"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:text="FAVORITES"
+        android:textColor="#151414"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/add_favorites"
+        app:layout_constraintEnd_toStartOf="@+id/no_of_favorites"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="12dp"
+        android:text="ITEMS"
+        android:textColor="#151414"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/add_items"
+        app:layout_constraintEnd_toStartOf="@+id/no_of_items"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/homeicon"
+        android:layout_width="49dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/hometxt"
+        app:layout_constraintEnd_toStartOf="@+id/suggestionicon"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_items"
+        app:layout_constraintVertical_bias="0.833"
+        app:srcCompat="@drawable/ic_home" />
+
+    <ImageView
+        android:id="@+id/suggestionicon"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/suggestiontxt"
+        app:layout_constraintEnd_toStartOf="@+id/dashboardicon"
+        app:srcCompat="@drawable/ic_baseline" />
+
+    <ImageView
+        android:id="@+id/dashboardicon"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/dashboardtxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_items"
+        app:layout_constraintVertical_bias="0.815"
+        app:srcCompat="@drawable/ic_account" />
+
+    <TextView
+        android:id="@+id/hometxt"
+        android:layout_width="78dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="16dp"
+        android:text="HOME"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/suggestiontxt"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dashboardtxt"
+        android:layout_width="119dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="12dp"
+        android:text="DASBOARD"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/suggestiontxt"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="16dp"
+        android:text="SUGGESTIONS"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dashboardtxt"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
