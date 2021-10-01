@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="36dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:onClick="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:onClick="toAllReviews"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/itemNameReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="toAllReviews"
+        android:text="The Item Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="8dp"
+        android:onClick="toAllReviews"
+        android:text="Category:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/itemNameReview"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/itemCategoryReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="toAllReviews"
+        android:text="The Category"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/itemImageReview"
+        android:layout_width="129dp"
+        android:layout_height="130dp"
+        android:onClick="toAllReviews"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.818"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/itemDescriptionReview"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="7dp"
+        android:onClick="toAllReviews"
+        android:text="Has 1.84 Inch (4.67 cm) P-OLED Display display for apps and other functions of the smartwatch"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toEndOf="@+id/itemImageReview"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add a review"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/editDetailedText"
+        android:layout_width="305dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/itemHint"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <EditText
+        android:id="@+id/editShortText"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/itemHintShort"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDetailedText" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rating"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <RadioGroup
+        android:id="@+id/ratingGroup"
+        android:layout_width="61dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:baselineAligned="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editDetailedText"
+        app:layout_constraintTop_toBottomOf="@+id/textView47">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:text="5"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:text="4"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:text="3"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:text="2"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="58dp"
+            android:layout_height="38dp"
+            android:text="1"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/buttonColor"
+        android:onClick="submit"
+        android:text="@string/submitButton"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttonColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editShortText" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+
+    <Button
+        android:id="@+id/allItemReviews"
+        android:layout_width="391dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/buttonColor"
+        android:onClick="toAllReviews"
+        android:text="@string/allReviewsButton"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+
+    <ImageView
+        android:id="@+id/homeicon"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/hometxt"
+        app:layout_constraintEnd_toStartOf="@+id/suggestionicon"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/suggestionicon"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/suggestiontxt"
+        app:layout_constraintEnd_toStartOf="@+id/dashboardicon"
+        app:srcCompat="@drawable/ic_baseline"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/dashboardicon"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/dashboardtxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_account"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/hometxt"
+        android:layout_width="78dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="16dp"
+        android:text="HOME"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/suggestiontxt"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/suggestiontxt"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="16dp"
+        android:text="SUGGESTIONS"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dashboardtxt"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dashboardtxt"
+        android:layout_width="119dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="16dp"
+        android:text="DASBOARD"
+        android:textColor="#3D1943"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

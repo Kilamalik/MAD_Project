@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ReviewerApplication</string>
+    <string name="appname">REVIEWER</string>
+    <string name="nextpage"><![CDATA[NEXT>>>]]></string>
+    <string name="welcomeNote">WELCOME TO REVIEWER</string>
+    <string name="title_activity_side_navigation_bar">SideNavigationBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Feedback</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_profile">Profile</string>
+    <string name="itemName">Item Name</string>
+    <string name="category">Category:</string>
+    <string name="reviews">Reviews:</string>
+    <string name="itemHint">Write a detailed review</string>
+    <string name="itemHintShort">Describe in one word</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="allReviewsButton">ALL REVIEWS</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_image" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:hint="Email"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_image" />
+
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:hint="Phone no"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_image" />
+
+    <TextView
+        android:id="@+id/profile_text"
+        android:layout_width="357dp"
+        android:layout_height="83dp"
+        android:text="Time to Add your Image"
+        android:textColor="#4D1D55"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:text="Delete"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#742781"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addimage_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:text="Update"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#742781"
+        app:layout_constraintBottom_toTopOf="@+id/delete_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:text="Skip"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#742781"
+        app:layout_constraintBottom_toTopOf="@+id/addimage_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="179dp"
+        android:layout_height="152dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_text"
+        app:srcCompat="@drawable/images" />
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/addimage_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_text"
+        app:layout_constraintVertical_bias="0.346"
+        app:srcCompat="@drawable/ic_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
