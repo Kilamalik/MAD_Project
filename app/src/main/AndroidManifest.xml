@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReviewerApplication">
         <activity
+            android:name=".RetrieveYourReviews"
+            android:exported="true" />
+        <activity
+            android:name=".RetrieveAllReviews"
+            android:exported="true" />
+        <activity
             android:name=".ReviewItem"
             android:exported="true" />
         <activity

@@ -22,7 +22,6 @@ public class ReviewItem extends AppCompatActivity {
 
     ImageView itemImage;
     TextView itemName, itemCategory, itemDescription;
-    //ItemClass itemReview;
     String category = "category", imageURL = "imageURL", itemNameString = "itemName", description = "description";
 
     EditText detailed, oneWord;
@@ -58,7 +57,7 @@ public class ReviewItem extends AppCompatActivity {
 
     public void submit(View view) {
         ReviewClass review;
-        String user = "Rakeen";
+        String user = "Sajeed";
         String itemName = intent.getStringExtra(itemNameString);
         String detailedText = detailed.getText().toString();
         String shortText = oneWord.getText().toString();
@@ -100,8 +99,8 @@ public class ReviewItem extends AppCompatActivity {
     }
 
     public void toAllReviews(View view) {
-        /*Intent secondIntent = new Intent(this, RetrieveAllReviews.class);
+        Intent secondIntent = new Intent(this, RetrieveAllReviews.class);
         secondIntent.putExtra(itemNameString, intent.getStringExtra(itemNameString));
-        startActivity(secondIntent);*/
+        startActivity(secondIntent);
     }
 }

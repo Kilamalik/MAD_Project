@@ -1,10 +1,16 @@
 package com.example.reviewerapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 public class Review extends AppCompatActivity {
@@ -21,8 +27,8 @@ public class Review extends AppCompatActivity {
     }
 
     public void yourReviewsPage(View view) {
-        /*Intent intent = new Intent(this, RetrieveYourReviews.class);
-        startActivity(intent);*/
+        Intent intent = new Intent(this, RetrieveYourReviews.class);
+        startActivity(intent);
     }
 
 }

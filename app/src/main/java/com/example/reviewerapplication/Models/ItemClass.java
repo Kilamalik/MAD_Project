@@ -2,7 +2,7 @@ package com.example.reviewerapplication.Models;
 
 public class ItemClass {
 
-    String category, imageURL, itemName, description;
+    public String category, imageURL, itemName, description;
     int reviews;
 
     public ItemClass(){

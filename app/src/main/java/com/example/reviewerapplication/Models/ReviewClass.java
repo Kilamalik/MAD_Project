@@ -2,7 +2,7 @@ package com.example.reviewerapplication.Models;
 
 public class ReviewClass {
 
-    String detailedReview, shortReview, rating, user, itemName;
+    public String detailedReview, shortReview, rating, user, itemName;
 
     public ReviewClass() {
 
