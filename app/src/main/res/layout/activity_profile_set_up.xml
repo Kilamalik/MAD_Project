@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="345dp"
+        android:layout_height="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/l1" />
+    <EditText
+        android:layout_marginTop="20dp"
+       android:hint="UserName"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/profile_text"
+        android:layout_width="357dp"
+        android:layout_height="83dp"
+        android:text="Time to Add your Image"
+        android:textColor="#4D1D55"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="36dp"
+        android:text="SKIP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#742781"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addimage_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="Update"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#742781"
+        app:layout_constraintBottom_toTopOf="@+id/skip_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="179dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_text"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/images" />
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/addimage_btn"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/profile_text"
+        app:layout_constraintVertical_bias="0.441"
+        app:srcCompat="@drawable/ic_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

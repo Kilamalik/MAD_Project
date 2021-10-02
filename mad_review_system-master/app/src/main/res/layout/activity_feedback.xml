@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/submit_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EEEE">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="410dp"
+        android:layout_height="89dp"
+        android:background="#592B61"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/headtopic"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="How was your experience with us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headtopic" />
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:text="FEEDBACK"
+        android:textColor="#621070"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <EditText
+        android:id="@+id/feedbackTextMultiLine"
+        android:layout_width="337dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Suggest us what went wrong and we'll work on it."
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback" />
+
+    <TextView
+        android:id="@+id/likeapp"
+        android:layout_width="277dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:text="DO YOU LIKE THE APP ?"
+        android:textColor="#610F70"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackTextMultiLine" />
+
+    <CheckBox
+        android:id="@+id/No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Yes"
+        android:textColor="#473C3C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/likeapp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="No"
+        android:textColor="#423737"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/likeapp" />
+
+    <ImageView
+        android:id="@+id/yesicon"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/No"
+        app:layout_constraintTop_toBottomOf="@+id/likeapp"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_satisfied_alt" />
+
+    <ImageView
+        android:id="@+id/noicon"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/likeapp"
+        app:srcCompat="@drawable/ic_very_dissatisfied" />
+
+    <EditText
+        android:id="@+id/email_ID_to_submit"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Your Email To Submit"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yesicon" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#480F51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_ID_to_submit"
+        app:layout_constraintVertical_bias="0.627" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

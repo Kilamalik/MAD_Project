@@ -1,0 +1,2 @@
+rootProject.name = "ReviewerApplication"
+include ':app'

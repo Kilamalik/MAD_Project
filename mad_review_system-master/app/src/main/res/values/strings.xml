@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReviewerApplication</string>
+    <string name="appname">REVIEWER</string>
+    <string name="nextpage"><![CDATA[NEXT>>>]]></string>
+    <string name="welcomeNote">WELCOME TO REVIEWER</string>
+</resources>
